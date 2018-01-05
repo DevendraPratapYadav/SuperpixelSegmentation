@@ -14,7 +14,7 @@ Prerequisites: Python 2.7, OpenCV 3.1, Darknet and YOLO
 * Create a folder "darknet" in project directory. Place "cfg/yolo-voc.cfg" and yolo-voc.weights in the "darknet" folder. This pretrained YOLO model will be used to get object detection results. 
 
 ### Execute programs: 
-1) Place 'release' folder (containing SBD dataset) in same directory as this file
+1) Place 'release' folder (containing SBD dataset) in project directory
 
 2) To test on a single image, run 'main.py'. Enter the exact image serial number
    as present in the SBD dataset, and the threshold value (between 0 to 1), when prompted.
